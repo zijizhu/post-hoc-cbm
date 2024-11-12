@@ -37,7 +37,7 @@ def get_model(args, backbone_name="resnet18_cub", full_model=False):
     
     elif backbone_name == "resnet18_cub":
         from torchvision.models import get_model
-        model = get_model(backbone_name, pretrained=True)
+        model = get_model("resnet18", pretrained=True)
         backbone, model_top = ResNetBottom(model), ResNetTop(model)
         cub_mean_pxs = np.array([0.5, 0.5, 0.5])
         cub_std_pxs = np.array([2., 2., 2.])
