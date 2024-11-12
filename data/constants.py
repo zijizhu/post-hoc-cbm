@@ -5,7 +5,7 @@ import os
 # Dataset: https://worksheets.codalab.org/rest/bundles/0xd013a7ba2e88481bbc07e787f73109f5/ 
 # Metadata and splits: https://worksheets.codalab.org/bundles/0x5b9d528d2101418b87212db92fea6683
 CUB_DATA_DIR = "datasets/CUB_200_2011/"
-CUB_PROCESSED_DIR = "datasets/CUB_200_2011/"
+CUB_PROCESSED_DIR = "datasets/class_attr_data_10/"
 
 
 # Derm data constants
